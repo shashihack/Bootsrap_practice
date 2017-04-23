@@ -1,0 +1,234 @@
+body{
+  padding-top: -60px;
+    background: black;
+   
+}
+header .navbar {
+  padding: 30px 0;
+  transition: all .5s ease-out;
+}
+
+header .navbar-inverse {
+  background-image: linear-gradient(to right, #040A29, #05034A,#08038F);
+  border: none;
+  
+}
+
+header .navbar-inverse .navbar-nav
+{
+  
+   
+    
+}
+header .navbar-inverse .navbar-nav a {
+  color: snow;
+ 
+    font-size: 20px;
+}
+
+header .navbar-inverse .navbar-nav a:hover {
+  color: darkblue;
+    font-size: 21px;
+    background: white;
+   
+}
+
+header .navbar-inverse .navbar-nav .active a {
+  font-weight: 700;
+  color: #EEC856;
+  background: transparent;
+  
+  text-shadow: none;
+}
+
+#mem
+{
+    margin-left: -90px;
+    
+}
+
+
+header .navbar-inverse .navbar-nav .active a:hover {
+  color: #E15D5F;
+  background: transparent;
+  text-shadow: none;
+}
+
+@media only screen 
+and (min-width: 850px)
+
+{
+header .navbar-brand
+{
+   margin-top: -30px;
+   
+    }}
+header .navbar-brand img
+{
+    max-width: 300px;
+    max-height: 150px;
+}
+
+@media only screen 
+and (min-width: 150px)
+and (max-width: 668px) {
+  header .navbar-brand img
+{
+    max-width: 150px;
+}
+}
+@media only screen 
+and (min-width: 150px)
+and (max-width: 668px) {
+  header .navbar-inverse .navbar-toggle collapsed
+{
+   
+}
+}
+@media only screen
+and (max-width: 768px) {
+  header .navbar-collapse.in {
+    background-color: rgba(0,0,0, .5);
+  }
+}
+header .navbar-toggle {
+  background-color: #279182;
+}
+.carousel img
+{
+    max-width: 1380px;
+}
+
+.center img
+{
+    max-width: 350px;
+    max-height: 200px;
+}
+
+
+#mission {
+
+  background-image: linear-gradient(to right,gray, lightgray,white);
+  border-top: 20px solid #081A2E;
+}
+#mission p, h2
+{
+    color: white;
+}
+#members {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #51C1F5, #12465E);
+  border-top: 20px solid #033247;
+}
+
+
+.img-circle
+{
+    max-height: 250px;
+    max-width: 250px;
+}
+
+
+
+.carousel
+{
+    margin-top: -50px;
+}
+
+#border {
+  background-color: #020E38;
+  
+}
+
+#border h3
+{
+    color: white;
+    margin-top: -1px;
+    font-size: 30px;
+    font-family: cursive;
+}
+@media only screen
+and (min-width: 900px) {
+#cat
+{
+    margin-left: -90px;
+    margin-right: -90px;
+  
+}
+}
+#browse h4
+{
+    color:white;
+    font-family: Brush Script MT;
+   
+}
+
+.row .container .ram
+{
+    width: 100%;
+}
+
+@media only screen
+and (max-width: 768px) {
+#border h3
+{
+   font-size: 10px;
+    margin-left: -10px;
+}
+}
+
+
+.center
+{
+    background: black;
+}
+
+
+form{
+background: black;
+padding: 30px;
+-webkit-box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+color: white;
+    margin-bottom: 20px;
+
+}
+
+.nav-tabs {
+    max-width: 450px;
+margin-left: auto;
+background: white;
+margin-right: auto;
+display: table;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.nav-tabs>li>a {
+border-radius: 0px;
+background: black;
+color: white;
+}
+.nav-tabs>li>a:hover {
+border-radius: 0px;
+background:#215891;
+color: white;
+}
+
+.about
+{
+    background: black;
+padding: 10px;
+-webkit-box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+box-shadow: 9px 15px 39px -9px rgba(0,0,0,0.75);
+color: white;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.exp
+{
+   background: black; 
+    padding: 10px;
+}
